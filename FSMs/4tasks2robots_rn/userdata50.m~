@@ -1,0 +1,27 @@
+numRobots = str2double('2');
+numTasks = str2double('4');
+numRegions = str2double('4');
+numEvents = str2double('16');
+
+start_loc(1,1) = 00000;
+start_loc(1,2) = 00000;
+
+initial_state = '1';
+final_state = '7';
+
+% tasks = {'name', x1, y1, 'function', 'from_task_name'}
+tasks = { 'tsk1',  -8,  -17,  'D',  'M';
+    'tsk2',  -15,  12,  'D',  'M';
+    'tsk3',  7,  -7,  'D',  'M';
+    'tsk4',  17,  -18,  'D',  'M' };
+
+
+
+% regions = {'name', x1, y1, x2, y2}
+regions = { 'regtsk1',  -9,  -18,  -7,  -16;
+    'regtsk2',  -16,  11,  -14,  13;
+    'regtsk3',  6,  -8,  8,  -6;
+    'regtsk4',  16,  -19,  18,  -17 };
+
+
+

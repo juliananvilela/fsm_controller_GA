@@ -1,0 +1,35 @@
+numRobots = str2double('2');
+numTasks = str2double('6');
+numRegions = str2double('15');
+numEvents = str2double('12');
+
+% start_loc = {x, y}
+start_loc = { 0.8947,  1.3903;
+    0.8865,  5.7055 };
+
+% tasks = {'name', x1, y1, 'function', 'from_task_name'}
+tasks = { 'tsk01',  -8,  5,  'D',  'start';
+    'tsk02',  -8,  -2,  'D',  'tsk1';
+    'tsk03',  -4,  -6,  'D',  'start';
+    'tsk04',  0,  -8,  'D',  'tsk3';
+    'tsk05',  8,  -5,  'D',  'start';
+    'tsk06',  5,  6,  'D',  'tsk5' };
+
+
+% regions = {'name', x1, y1, x2, y2}
+regions = { 'reg07',  -9,  -9,  -3,  -3;
+    'reg08',  -9,  -3,  -3,  3;
+    'reg09',  -9,  3,  -3,  9;
+    'reg10',  -3,  3,  3,  9;
+    'reg11',  -3,  -3,  3,  3;
+    'reg12',  -3,  -9,  3,  -3;
+    'reg13',  3,  -9,  9,  -3;
+    'reg14',  3,  -3,  9,  3;
+    'reg15',  3,  3,  9,  9;
+    'regtsk01',  -9,  4,  -7,  6;
+    'regtsk02',  -9,  -3,  -7,  -1;
+    'regtsk03',  -5,  -7,  -3,  -5;
+    'regtsk04',  -1,  -9,  1,  -7;
+    'regtsk05',  7,  -6,  9,  -4;
+    'regtsk06',  4,  5,  6,  7 };
+
