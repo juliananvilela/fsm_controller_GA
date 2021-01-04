@@ -1,5 +1,5 @@
 # fsm_controller
 
-Genetic Algorithm 
+Genetic Algorithm in development
 
 
