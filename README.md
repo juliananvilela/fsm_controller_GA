@@ -1,8 +1,5 @@
 # fsm_controller
 
-Instructions:
+Genetic Algorithm 
 
-$ git clone https://github.com/Jonamon23/fsm_controller ~/catkin_ws/src/fsm_controller
-
-$ roslaunch fsm_controller hill_land.launch
 
